@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.task{
+    position: absolute;
+    padding-left: 200px;
+    padding-right: auto;
+    padding-top: 200px;
+    padding-bottom: 30px;
+    font-size: 3vw;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: solid black;
+    /*position unstable*/
+
+}
+.t1{
+    position: absolute;
+    padding-left: 320px;
+    padding-right: 2vw;
+    padding-top: 200px;
+    padding-bottom: 30px;
+    font-size: 3vw;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  gray;
+    /*position unstable*/
+
+
+}
+.list{
+    position: absolute;
+    font-size: 20px;
+    text-decoration: underline;
+    padding-left: 600px;
+    padding-right: 2vw;
+    padding-top: 200px;
+
+    
+
+    
+}
+.box{
+    position: absolute;
+    /* display: flex; */
+    right: 600PX;
+    top: 16em;
+    /* float: inline-end; */
+    
+
+    
+}
+#head{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: orangered;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    
+
+}
+#id{
+    border-bottom:0ch;
+    margin-left: 30px;
+    padding-top: 20PX;
+    padding-bottom: 20px;
+}
+
+#box1{
+    position: absolute;
+    /*font color*/
+    color: orangered;
+    font-size: large;
+    text-align: center;
+    /*padding*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 6CM;
+    width: 4cm;
+    right: 450px;
+    border: 2px solid orangered;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow:5px 5px rgb(116, 177, 212);
+}
+#box2{
+    position: absolute;
+    /*font color*/
+    color: orangered;
+    font-size: large;
+    text-align: center;
+    /*padding*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 6CM;
+    width: 4cm;
+    right: 250px;
+    border: 2px solid orangered;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow:5px 5px rgb(116, 177, 212);
+}
+#box3{
+    position: absolute;
+    /*font color*/
+    color: orangered;
+    font-size: large;
+    text-align: center;
+    /*padding*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 6CM;
+    width: 4cm;
+    right: 50px;
+    border: 2px solid orangered;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 5px 5px rgb(116, 177, 212);
+}
+.cmplttsk{
+    text-decoration: line-through;
+}
+.checkbox{
+    color: black;
+    text-align: left;
+    padding-top: 10px;
+}
+.h1{
+    position: absolute;
+    left: 40vw;
+    padding-top: 20px;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+.back{
+    position: absolute;
+    font-size: 30px;
+    color: gray;
+    padding-left: 600px;
+    padding-right: 2vw;
+    padding-top: 100px;
+    }
+    #box4{
+        position: absolute;
+        top: 10vw;
+        left: 38vw;
+
+        /*font color*/
+        color: orangered;
+        font-size: large;
+        text-align: center;
+        /*padding*/
+        padding-top: 20px;
+        padding-bottom: 20px;
+        height: 10CM;
+        width: 8cm;
+        right: 250px;
+        border: 2px solid orangered;
+        border-radius: 10px;
+        background-color: white;
+        box-shadow:5px 5px rgb(116, 177, 212);
+    }
+    #id1{
+        border-bottom:0ch;
+        margin-left: 70px;
+        padding-top: 20PX;
+        padding-bottom: 20px;
+    }
+    .icn{
+        position: relative;
+        top: 18vw;
+        left: 120px;
+        size: 20px;
+        
+    }
+    .block1{
+        position: absolute;
+        top: 20vw;
+        left: 500px;
+
+         border: 2px solid orangered;
+         border-radius: 8px;
+         height: 3cm;
+         width: 8cm;
+         text-align: center;
+         padding-top: 20px;
+         padding-bottom: 20px;
+         color: solid orangered;
+    }
+    #text1{
+        color: orangered;
+        font-size: larger;
+    }
+    .container:not(#block1){
+        filter: blur(4px);
+        
+
+    }
+    .block2{
+        position: absolute;
+        top: 20vw;
+        left: 500px;
+
+         border: 2px solid orangered;
+         border-radius: 8px;
+         height: 3cm;
+         width: 8cm;
+         text-align: center;
+         padding-top: 20px;
+         padding-bottom: 20px;
+         color: solid orangered;
+    }
+    .container2:not(#block2){
+        filter: blur(4px);
+    }
+        
+    
